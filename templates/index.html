@@ -8,16 +8,24 @@
 </head>
 <body>
     <h1>Cupcakes</h1>
+
     <ul id="cupcake-list"></ul>
+
+    <h2>Add A New Cupcake!</h2>
+
     <form id="cupcake-form">
+
         <input type="text" id="flavor" placeholder="Flavor">
         <input type="text" id="size" placeholder="Size">
-        <input type="number" id="rating" step="0.1" placeholder="Rating">
+        <input type="number" id="rating" step="1" placeholder="Rating">
         <input type="text" id="image" placeholder="Image URL">
+
         <button type="submit">Add Cupcake</button>
     </form>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="cupcakes.js"></script>
+    
 </body>
 </html>
